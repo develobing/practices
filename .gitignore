@@ -1,0 +1,5 @@
+# node_modules Folder
+/node_jwt/node_modules
+
+# .env Files
+/node_jwt/.env
