@@ -1,0 +1,26 @@
+# Getting All
+GET http://localhost:3005/subscriber
+
+#### Getting One
+GET http://localhost:3005/subscriber/5d207c2598d96a3808d86c8e
+
+### Creating One
+POST http://localhost:3005/subscriber
+Content-Type: application/json
+
+{
+  "name": "Amazing Person",
+  "subscribedToChannel": "Web Dev Simplified"
+}
+
+##### Deleting One
+DELETE http://localhost:3005/subscriber/5d2077cf094b1d34044047ba
+
+###### Updating One
+PATCH http://localhost:3005/subscriber/5d207c2598d96a3808d86c8e
+Content-Type: application/json
+
+{
+  "name": "New Name"
+}
+

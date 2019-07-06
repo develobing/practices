@@ -1,5 +1,7 @@
 # node_modules Folder
 /node_jwt/node_modules
+/rest_api/node_modules
 
 # .env Files
 /node_jwt/.env
+/rest_api/.env
